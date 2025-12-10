@@ -7,10 +7,10 @@
 Based on your house price model, rank the four features from most important to least important. Explain how you determined this ranking.
 
 **YOUR ANSWER:**
-1. Most Important: 
-2. 
-3. 
-4. Least Important: 
+1. SquareFeet
+2. Bedrooms
+3. Bathrooms
+4. Age
 
 **Explanation:**
 
@@ -65,5 +65,5 @@ If you could add TWO more features to improve your house price predictions, what
 Would you trust this model to predict the price of a house with 6 bedrooms, 4 bathrooms, 3000 sq ft, and 5 years old? Why or why not? (Hint: Think about the range of your training data)
 
 **YOUR ANSWER:**
-
+I would not trust this model to predict the price of a house with those specifications because our data does not feature any houses with more than 5 bedrooms or more than 3 bathrooms or more than 2.5k sq ft. Therefore, the model will likely be inaccurate to houses outside the range of the training data, meaning it would have to do a lot of guessing, leading to unreliable predictions.
 
