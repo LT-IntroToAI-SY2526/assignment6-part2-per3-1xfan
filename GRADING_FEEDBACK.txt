@@ -1,0 +1,36 @@
+======================================================================
+ASSIGNMENT 6 PART 2 - AUTOGRADER FEEDBACK
+======================================================================
+
+Total Score: 5.92 / 10.00
+
+----------------------------------------------------------------------
+DETAILED BREAKDOWN
+----------------------------------------------------------------------
+
+Baseline (for submission): 4.00 / 4.00
+  ✓ You submitted files - great start!
+
+Code Functions: 1.12 / 3.00
+  - Not implemented: visualize_features
+  - Not implemented: train_model
+  - Not implemented: evaluate_model
+  - Not implemented: compare_predictions
+  - Not implemented: make_prediction
+
+Visualization: 0.00 / 1.00
+  - Missing visualization PNG file
+
+Writeup: 0.80 / 2.00
+  - Question 2: Answer is too short (needs more detail)
+  - Question 3: Answer is too short (needs more detail)
+  - Question 4: Answer is too short (needs more detail)
+
+----------------------------------------------------------------------
+NEXT STEPS
+----------------------------------------------------------------------
+
+Please review the feedback above and complete missing items.
+You can resubmit for a better grade!
+
+Questions? See Mr. Berg during office hours or in class.
