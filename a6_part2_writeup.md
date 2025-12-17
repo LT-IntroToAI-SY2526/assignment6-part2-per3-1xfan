@@ -13,7 +13,7 @@ Based on your house price model, rank the four features from most important to l
 4. Age
 
 **Explanation:**
-
+Based on our data, square feet seems to have the largest impact on the house price compared to the other variables, as well as the most linear correlation to the price. Although Bedrooms and bathrooms are similar in their impact on the final price, they still individually have less of an impact than the size of the house. 
 
 
 
@@ -47,16 +47,16 @@ What was your model's R² score? What does this tell you about how well your mod
 If you could add TWO more features to improve your house price predictions, what would they be and why?
 
 **Feature 1:**
-
+Backyard Size
 
 **Why it would help:**
-
+Many inviduals may be looking for houses with backyard space, whether its for their kids, their pets, or their personal hobbies. Knowing this, sellers will likely mark up the house price based on how much extra space the backyard provides.
 
 **Feature 2:**
-
+External Storage Space (sq. ft)
 
 **Why it would help:**
-
+This statistic would count the surface area of any sheds, garages, or any other areas for storage detached from the main house. Especially for living in the city, a home having a garage could be a deal maker, and knowing this, sellers will likely price a house more highly if it has one, and even more highly if it can fit several cars. Sheds are also useful to stuff less frequently used things and could also be valuable to purchasers.
 
 ---
 
