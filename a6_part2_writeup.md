@@ -13,8 +13,7 @@ Based on your house price model, rank the four features from most important to l
 4. Age
 
 **Explanation:**
-Based on our data, square feet seems to have the largest impact on the house price compared to the other variables, as well as the most linear correlation to the price. Although Bedrooms and bathrooms are similar in their impact on the final price, they still individually have less of an impact than the size of the house. 
-
+Based on our data, square feet seems to have the largest impact on the house price compared to the other variables, as well as the most linear correlation to the price. Although an individual square foot adds less to the value than would an individual bedroom, the average size of a house means that the majority of the time, the area of a house (in sq ft) ends up being responsible for most of the price. On average, each bedroom added $6648.97 to the price of a house, while each bathroom only added $3858.90. Finally, the house's age seemed (on average) to have the smallest impact on the final price of the house, and the weakest correlation to price.
 
 
 ---
@@ -24,10 +23,10 @@ Based on our data, square feet seems to have the largest impact on the house pri
 Choose TWO features from your model and explain what their coefficients mean in plain English. For example: "Each additional bedroom increases the price by $___"
 
 **Feature 1:**
-
+Each year that passes since the house has been built subtracts an estimated $950.35 from its selling price.
 
 **Feature 2:**
-
+Each square foot of floor area adds roughly $121.11 to the value of the house.
 
 ---
 
@@ -36,8 +35,7 @@ Choose TWO features from your model and explain what their coefficients mean in 
 What was your model's R² score? What does this tell you about how well your model predicts house prices? Is there room for improvement?
 
 **YOUR ANSWER:**
-
-
+My model got an R² score of 0.9936. This means that it was 99.36% accurate in determining price variation. This is very accurate, but we could likely improve the model by including a larger dataset with more variety.
 
 
 ---

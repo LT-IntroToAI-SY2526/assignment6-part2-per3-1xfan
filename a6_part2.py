@@ -228,7 +228,7 @@ def make_prediction(model, sqft, bedrooms, bathrooms, age):
     house_features = pd.DataFrame([[bedrooms, age, bathrooms, sqft]], 
                                  columns=['SquareFeet', 'Bedrooms', 'Bathrooms', 'Age'])
     predicted_price = model.predict(house_features)[0]
-    brand_name = ['Toyota', 'Honda', 'Ford'][bedrooms]
+    # brand_name = ['Toyota', 'Honda', 'Ford'][bedrooms]
     print(f"\n--- New Prediction ---")
     print(f"House Details: {sqft:.0f}k square feet, {bedrooms} bedrooms, {bathrooms} bathrooms, {age} years old.")
     print(f"Predicted Price: ${predicted_price:,.2f}.")
